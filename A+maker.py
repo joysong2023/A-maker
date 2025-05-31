@@ -7,13 +7,6 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import webbrowser
 
-# OpenAI API Key
-openai.api_key = "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"
-
-# Google Calendar API 설정
-SCOPES = ['https://www.googleapis.com/auth/calendar']
-CREDENTIALS_FILE = 'data/credentials.json'
-CALENDAR_ID = '3ac88f8f605704605a4839b2722c6a5fba5dd85d2527b786473e7b2b9efd01ee@group.calendar.google.com'  # 캘린더 ID
 
 class ScheduleApp:
     def __init__(self, root):
